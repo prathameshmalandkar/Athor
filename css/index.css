@@ -49,8 +49,8 @@
 .banner{
     width: 100%;
     height: 566px;
-    background-color: #49cbcd;
-    background-image:url(/layout-10/image/banner_image.png) ;
+    /* background-image:url(/layout-10/image/banner_image.png) ; */
+    background-image:url(/image/banner_image.png) ;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -67,7 +67,7 @@
 }
 .banner_details p{
     /* width: 396px; */
-    font-size: 23px;
+    font-size: 24px;
     line-height: 37px;
     color: #ffffff;
     font-weight: 400;
@@ -87,9 +87,6 @@
 }
 
 /* section service */
-.service{
-
-}
 .service .box{
     width: 250px;
     display: inline-block;
@@ -102,23 +99,23 @@
 .service .box4{
     margin: 104px 0 98px 26px;
 }
-.box .icon{
+.service .box .icon{
     font-size: 40px;
     line-height: 24px;
     color: #49cbcd;
     border: 3px solid #49cbcd;
     border-radius: 100%;
-    padding: 33px;
+    padding: 38px;
     margin-bottom: 49px;
 }
-.box h1{
+.service .box h1{
     margin-bottom: 29px;
     font-size: 22px;
     line-height: 24px;
     color: #4e525d;
     font-weight: 400;
 }
-.box p{
+.service .box p{
     margin-bottom: 20px;
     width: 253px;
     height: 78px;
@@ -127,7 +124,7 @@
     color: #4e525d;
     font-weight: 400;
 }
-.box button{
+.service .box button{
     font-size: 14px;
     line-height: 26px;
     color: #ffffff;
@@ -138,15 +135,18 @@
 }
 
 /* section portfolio  */
-
-.portfolio h1{
+.portfolio{
+    text-align: center;
     background-color: #f1f1f1;
+    padding: 51px 0 103px 0;
+}
+.portfolio-head{
     font-size: 42px;
     line-height: 24px;
     color: #4e525d;
     font-weight: 400;
     text-align: center;
-    padding-top: 51px;
+    /* padding-top: 51px; */
 }
 .gallery{
     display: flex;
@@ -160,4 +160,147 @@
 }
 .gallery .last{
     margin: 0 0 30px 0;
+}
+.portfolio button{
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #49cbcd;
+    border: 1px solid #49cbcd;
+    border-radius: 5px;
+    padding: 22px 41px;
+}
+ /* section team */
+ .team{
+    text-align: center;
+ }
+ .team h1{
+    margin-top: 93px;
+    font-size: 42px;
+    line-height: 24px;
+    color: #4e525d;
+    font-weight: 400;
+ }
+ .team .box{
+    width: 250px;
+    display: inline-block;
+    margin: 59px 26px 61px 26px;
+    text-align: center;
+}
+.team .box1{
+    margin: 59px 26px 61px 0;
+}
+.team .box4{
+    margin: 59px 0 61px 26px;
+}
+.team .box .icon{
+    background-color: #eeeef0;
+    border: 2px solid #eeeef0;
+    border-radius: 100%;
+    border-width: 100px ;
+    padding: 33px;
+    margin-bottom: 61px;
+}
+.team .box h1{
+    margin-bottom: 1px;
+    font-size: 22px;
+    line-height: 24px;
+    color: #4e525d;
+    font-weight: 400;
+}
+.team .box h3{
+    margin-bottom: 35px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #4e525d;
+    font-weight: 400;
+}
+.team .box p{
+    margin-bottom: 20px;
+    width: 253px;
+    height: 78px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #4e525d;
+    font-weight: 400;
+}
+
+/* contact us */
+
+.contact{
+    /* background-image: url(/layout-10/image/footer_banner.png); */
+    background-image: url(/image/footer_banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.contact-section{
+    /* text-align: left; */
+    display: flex;
+}
+.contact .head{
+    font-size: 42px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    padding: 103px 0 117px 0;
+}
+.contact-details{
+    width: 597px;
+}
+.contact-section .contact-details h1{
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.contact-details .para{
+    width: 431px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.contact-details img{
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    margin: 0 15px 20px 0;
+    /* background-color: #e44c41; */
+}
+.contact-details p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #bface2;
+    font-weight: 400;
+}
+.contact-info-text .in{
+    width: 270px;
+    margin: 0 25px 31px 0;
+    border-radius: 3px;
+    padding: 10px;
+}
+.contact-info-text .in1{
+    width: 270px;
+    border-radius: 3px;
+    padding: 10px;
+}
+.contact-info .msg input{
+    width: 100%;
+    padding-bottom: 179px;
+    border-radius: 3px;
+}
+.btn{
+    font-size: 22px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    background-color: #49cbcd ;
+    border: 1px solid #49cbcd;
+    border-radius: 4px;
+    padding: 10px 50px 10px 50px;
+    margin: 31px 0 97px 416px;
 }
